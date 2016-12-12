@@ -4,7 +4,7 @@ Developed by Jens Dyvik / Fellesverkstedet
 
 Check the files in the examples folder to learn how Bark Beetle can be used for digital fabrication.
 
-Currently the most complete set of tools can be found in "Bark beetle - Fab machines output.gh" in the examples folder.
+Currently the most complete set of tools are the CNC milling components. Check the CNC milling example in the Examples - Stable release folder. Make sure you specify your streaming destination as instructed in the file.
 
 A library of easy to use components is currently being built. To install the components:
 
@@ -16,5 +16,7 @@ A library of easy to use components is currently being built. To install the com
 
 License: Creative Commons Attribution ShareAlike (cc-by-sa)
 
+![Batch 3D milling buttons](./Images/Bark%20beetle%20-%20Batch%203D%20milling.png)
+![Automill](./Images/Bark%20beetle%20-%20Automill%20of%20robot%20spindle%20mount%20-%20with%20auttomatic%20settings%20and%20tab%20cleanup.png)
 
 
