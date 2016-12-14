@@ -17,6 +17,7 @@ A library of easy to use components is currently being built. To install the com
 License: Creative Commons Attribution ShareAlike (cc-by-sa)
 
 ![Batch 3D milling buttons](./Images/Bark%20beetle%20-%20Batch%203D%20milling.png)
+
 ![Automill](./Images/Bark%20beetle%20-%20Automill%20of%20robot%20spindle%20mount%20-%20with%20auttomatic%20settings%20and%20tab%20cleanup.png)
 
 
