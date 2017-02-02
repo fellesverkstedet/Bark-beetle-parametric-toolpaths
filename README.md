@@ -101,17 +101,16 @@ A library of easy to use components is currently being built.
 
 
 **Feedrate Calculator**
-* Calculates a feedrate matching chipload and rpm.
+*Calculates a feedrate matching chipload and rpm.
 
-* Can take chip thining into account. Input the maxium stepover the tool will encounter. Normal pockets and profiles will have a full stepover of 1, while the Arc Based High speed milling givve constant low stepovers as speciified.
+* Can take chip thining into account. Input the maxium stepover the tool will encounter. Normal pockets and profiles will have a full stepover of 0.5 (50%) and higher, while the Arc Based High speed milling have constant low stepovers as specified.
 
 
 **Feedrate Calculator for Arcs**
-* Compensates for the speed difference between the center of a bit and its outer edge when cutting in circular paths. Calculates a feedrate matching chipload and rpm.
-
+* Compensates for the speed difference between the center of a bit and its outer edge when cutting in circular paths.
+* Calculates a feedrate matching chipload and rpm.
 * This speed difference is similar to how the wheels on a car spin at different speeds during a turn.
-
-* Can take chip thining into account. Input the maxium stepover the tool will encounter. Normal pockets and profiles will have a full stepover of 1, while the Arc Based High speed milling givve constant low stepovers as speciified.
+* Can take chip thining into account. Input the maxium stepover the tool will encounter. Normal pockets and profiles will have a full stepover of 0.5 (50%) and higher, while the Arc Based High speed milling have constant low stepovers as specified.
 
 
 **Find deepest Z**
@@ -119,7 +118,7 @@ A library of easy to use components is currently being built.
 
 
 **Machining time**
-* Rough calculation of time to complete a set of toolpaths
+* Calculates the time it will take to complete a set of toolpaths
 
 
 
@@ -148,7 +147,7 @@ A library of easy to use components is currently being built.
 ### Machine control:
 
 **Send and start gcode**
-* Uploads a g-code to an octprorint server and automatically starts the job. Great for controlling your machine inside your design environment, 21st century style.
+* Uploads a g-code to an Octprorint server and automatically starts the job. Great for controlling a machine from inside your design environment, 21st century style!
 
 
 
@@ -159,14 +158,14 @@ A library of easy to use components is currently being built.
 
 
 **Harmonic drive maker**
-* Makes a strain wave gear box. Gives very high gear ratios and low backlash
+* Makes a strain wave gear box. Has very high gear ratios and low backlash
 
 
 **Inside gear for pinion maker**
 * Creates a gear matching a pinion from "Roller rack and pinion maker". Great for making geared rack and pinion drive systems. Connect pinion geometery from a "Roller rack and pinion maker" component.
 
 **Roller rack and pinion maker**
-* Makes rack and pinion gemetry suitable for 3 axis CNC milling. Has low backlash, but is vulnerable to contamination. More options inside component.
+* Makes rack and pinion geometry suitable for 3 axis CNC milling. Has low backlash, but is vulnerable to contamination. More options inside component.
 
 
 
