@@ -173,9 +173,34 @@ A library of easy to use components is currently being built.
 
 # Example projects
 
+![6 axis 3d milling](./Images/6-axis-machining-with-industrial-robot.jpg)
+
+![Dry-machining-steel-with-shopbot](./Images/Dry-machining-steel-with-shopbot.jpg)
+
+![ER25-key](./Images/Dry-machining-steel-with-shopbot-ER25-key.jpg)
+
+![Milling rack](./Images/11Milling-rack-geometry.JPG)
+
+![CNC milled CNC mill](./Images/28Testing-reproduction-by-milling-new-Z-axis.JPG)
+
+![Twosided-3D-milling](./Images/Twosided-3D-milling.JPG)
+
+![Twosided-3D-milling-backside](./Images/Twosided-3D-milling-backside.JPG)
+
 ![Batch 3D milling buttons](./Images/Bark%20beetle%20-%20Batch%203D%20milling.png)
 
 
+
+# License
+
+*As of January 2017*
+* 125 hours of CNC milling jobs done on 3 different ShopBots
+* More than 2000 milling jobs started
+* Succesfully made g-code to CNC mill with a CNC mill made with Bark Beetle
+* Succesfully made g-code to laser engrave with a laser cutter made with Bark Beetle
+* Succesfully 3D printed and CNC milled with Motoman SK-6 robot arm
+* Succussfully SLA 3D printed with KUDO3D printer *reliabily is slicing is a challenge*
+* Succussfully FDM 3D printed with Ultimaker and a Printrbot *proof of concept only*
 
 # License
 
