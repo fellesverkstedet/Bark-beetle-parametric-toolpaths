@@ -16,8 +16,37 @@ A library of easy to use components is currently being built.
 * In Grasshopper go to -File, - Special folders, - User Objects Folder
 * Paste the "Bark beetle components" folder into your "UserObjects" folder
 * Restart Rhino and Grasshopper.
-* You now have a tab in Grasshopper with Bark Beetle components
 
+You now have a tab in Grasshopper with Bark Beetle components
+
+To use the streaming function, you need to first specify your streaming destination. Jens recommends that you use cloud storage. 
+
+* Zoom out in the Example grasshopper file to see the array of blue panels on the right of the canvas.
+* Right click on each panel, select 'streaming destination' and choose your preferred location and save. 
+
+There is no need to rename the file but check that the file extension is the one that you wish - .gcode or .sbp
+Now every time you make a job, this file will automatically update, ready for you to run the job.
+>> If it's not updating, right click again and check that streaming is enabled.
+
+# General Workflow
+
+* Open Bark Beetle example file and Rhino example file.
+* Draw or import your 2D or 3D geometry.
+* Place the geometry in the layer that describes the action you want to perform, such as Drill or Pocket etc.
+* Specify material type, milling bit and and the depth of milling for each process.
+* Check in perspective view to verify number of tool passes.
+* Run the job. Bark Beetle streams your job so you don't have to save every change.
+
+# Advanced Workflow 
+
+Either modify the Example file or use the clustered components from the plug-in toolbar to create your own definition.
+Hover your pointer over each component to discover what they do. 
+If you have pre-existing GH definitions, like a piece of furniture, then you can use the Bark Beetle components directly inside your definition.
+>> This means that your definition becomes a CADCAM file - if you change the material thickness of your object, your gcode is automatically ready to run. 
+
+# Contributing
+
+If these instructions could be clearer, please feel welcome to make suggestions by logging an issue, and if you want to suggest changes to the project, make a pull request.
 
 # Features
 
