@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Material</_name>
+    <id>org.inkscape.bbmaterial</id>
+
+    <dependency type="executable" location="extensions">bb_pocket.py</dependency>
+	
+	<param name="name" type="description" appearance="header">Info on the material you are milling</param>
+	
+	<param name="material_type" type="enum" gui-text="Type">
+	<item value="1">Foam</item>
+	<item value="2">Wood</item>
+	<item value="3">Plastic</item>
+	<item value="4">Aluminium</item>
+	</param>
+
+    <param name="material_thickness" type="float" precision="3" min="0" max="9999" _gui-text="Thickness">30</param>
+
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Bark beetle - CNC mill"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">bb_material.py</command>
+    </script>
+</inkscape-extension>

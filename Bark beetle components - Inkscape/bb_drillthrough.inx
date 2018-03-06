@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Drill through</_name>
+    <id>org.inkscape.bbdrillthrough</id>
+
+    <dependency type="executable" location="extensions">bb_drillthrough.py</dependency>
+
+    <param name="name" type="description" appearance="header">Drills all the way through your material at center of object</param>
+
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Bark beetle - CNC mill"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">bb_drillthrough.py</command>
+    </script>
+</inkscape-extension>

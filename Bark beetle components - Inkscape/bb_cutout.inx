@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Cutout</_name>
+    <id>org.inkscape.bbcutout</id>
+
+    <dependency type="executable" location="extensions">bb_pocket.py</dependency>
+
+    <param name="name" type="description" appearance="header">Cuts all the way through your material</param>
+
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Bark beetle - CNC mill"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">bb_cutout.py</command>
+    </script>
+</inkscape-extension>

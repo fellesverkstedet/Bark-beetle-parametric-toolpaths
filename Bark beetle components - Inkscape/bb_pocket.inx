@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Pocket</_name>
+    <id>org.inkscape.bbpocket</id>
+
+    <dependency type="executable" location="extensions">bb_pocket.py</dependency>
+	<dependency type="executable" location="extensions">inkex.py</dependency>
+	
+	<param name="name" type="description" appearance="header">Removes all the material inside a shape</param>
+
+    <param name="pocket_depth" type="float" _gui-text="Pocket depth">0</param>
+
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Bark beetle - CNC mill"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">bb_pocket.py</command>
+    </script>
+</inkscape-extension>
