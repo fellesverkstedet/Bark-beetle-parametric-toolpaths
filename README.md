@@ -107,7 +107,7 @@ If these instructions could be clearer, please feel welcome to make suggestions 
 ### Toolpath tools:
 
 **Auto tabbing**
-* Automatically creates tab location points along cutting geoemtry. Combine these points with the "Tab maker' function for fully automatic tab creation.
+* Automatically creates tab location points along cutting geoemtry. Combine these points with the "Tab maker' function for fully automatic tab creation. NOTE: Limited functionality as of now. Mainly works with rectangular shapes and places tabs close to the corners along Y (to prevent tear out when removing parts from the machine)
 
 
 **Safe offset curve**
@@ -115,7 +115,7 @@ If these instructions could be clearer, please feel welcome to make suggestions 
 
 
 **Tab maker**
-* Automatically creates tab boxes along your cutting geometry
+* Automatically creates tab boxes along your cutting geometry. Uses points as input.
 
 
 
