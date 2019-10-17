@@ -21,10 +21,10 @@ You now have a tab in Grasshopper with Bark Beetle components
 
 To use the streaming function, you need to first specify your streaming destination. Jens recommends that you use cloud storage. 
 
-* Zoom out in the Example grasshopper file to see the array of blue panels on the right of the canvas.
-* Right click on each panel, select 'streaming destination' and choose your preferred location and save. 
+* Zoom out in the Example grasshopper file to see the "Post processor settings" and then zoom in on the purple group. [Image for reference](https://raw.githubusercontent.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/master/Images/Set%20directory%20path.png)
+* In this group you will find a component saying "Toolpath streaming folder". Right click on this component and click on "Select a directory" [Image for reference](https://raw.githubusercontent.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/master/Images/Set%20directory%20path%202.png)
+* You'll get a prompt asking to define a folder for streaming. Choose a folder as a destination for all files to be automatically streamed to.
 
-There is no need to rename the file but check that the file extension is the one that you wish - .gcode or .sbp
 Now every time you make a job, this file will automatically update, ready for you to run the job.
 >> If it's not updating, right click again and check that streaming is enabled.
 
