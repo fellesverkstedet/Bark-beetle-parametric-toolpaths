@@ -4,22 +4,14 @@
 
 ![Automill](./Images/Bark%20beetle%20-%20Automill%20of%20robot%20spindle%20mount%20-%20with%20auttomatic%20settings%20and%20tab%20cleanup.png)
 
-Check the files in the examples folder to learn how Bark Beetle can be used for digital fabrication.
+Check the CNC milling example in the Examples - Stable release folder. Make sure you specify your streaming destination as instructed below.
 
-Currently the most complete set of tools are the CNC milling components. Check the CNC milling example in the Examples - Stable release folder. Make sure you specify your streaming destination as instructed in the file.
+**To use the tool**
 
-A library of easy to use components is currently being built.
+* Go to [Stable release](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/tree/master/Examples%20-%20Stable%20release) and download the latest version + the template file.
+* Open the template file in rhino and the grasshopper file in grasshopper. The template file contains layers which indicate what grasshopper needs to do with the geometry on those layers. 
 
-**To install the components**
-
-* Copy the folder "Bark beetle components" from the github repo.
-* In Grasshopper go to -File, - Special folders, - User Objects Folder
-* Paste the "Bark beetle components" folder into your "UserObjects" folder
-* Restart Rhino and Grasshopper.
-
-You now have a tab in Grasshopper with Bark Beetle components
-
-To use the streaming function, you need to first specify your streaming destination. Jens recommends that you use cloud storage. 
+To use the streaming function of the file, you need to first specify your streaming destination. Cloud storage connected to the pc running your cnc-machine can be a huge time safer here. All changes will then be automatically streamed to the folder of your machine. 
 
 * Zoom out in the Example grasshopper file to see the "Post processor settings" and then zoom in on the purple group. [Image for reference](https://raw.githubusercontent.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/master/Images/Set%20directory%20path.png)
 * In this group you will find a component saying "Toolpath streaming folder". Right click on this component and click on "Select a directory" [Image for reference](https://raw.githubusercontent.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/master/Images/Set%20directory%20path%202.png)
