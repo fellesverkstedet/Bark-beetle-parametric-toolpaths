@@ -8,7 +8,7 @@ Check the CNC milling example in the Examples - Stable release folder. Make sure
 
 **To use the tool**
 
-* Go to [Stable release](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/tree/master/Examples%20-%20Stable%20release) and download the latest version + the template file.
+* Go to [Stable release](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/tree/master/Stable%20release) and download the latest version + the template file.
 * Open the template file in rhino and the grasshopper file in grasshopper. The template file contains layers which indicate what grasshopper needs to do with the geometry on those layers. 
 
 To use the streaming function of the file, you need to first specify your streaming destination. Cloud storage connected to the pc running your cnc-machine can be a huge time safer here. All changes will then be automatically streamed to the folder of your machine. 
