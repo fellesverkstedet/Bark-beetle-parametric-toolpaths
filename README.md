@@ -4,7 +4,7 @@
 
 ![Automill](./Images/Bark%20beetle%20-%20Automill%20of%20robot%20spindle%20mount%20-%20with%20auttomatic%20settings%20and%20tab%20cleanup.png)
 
-Check the CNC milling example in the Examples - Stable release folder. Make sure you specify your streaming destination as instructed below.
+Check the Grasshopper file in the Stable release folder for a ready to go set-up. Make sure you specify your streaming destination as instructed below. For advanced grasshopper users it's possible to use the components separately and create your own setup (as of October 2019 this has been archived).
 
 **To use the tool**
 
