@@ -22,7 +22,7 @@ Now every time you make a job, this file will automatically update, ready for yo
 
 # General Workflow
 
-* Open Bark Beetle example file and Rhino example file.
+* Open Bark Beetle grasshopper file (.gh) and Rhino example file (.3dm) from [Stable release](https://github.com/fellesverkstedet/Bark-beetle-parametric-toolpaths/tree/master/Stable%20release.)
 * Draw or import your 2D or 3D geometry.
 * Place the geometry in the layer that describes the action you want to perform, such as Drill or Pocket etc.
 * Specify material type, milling bit and and the depth of milling for each process.
@@ -30,6 +30,8 @@ Now every time you make a job, this file will automatically update, ready for yo
 * Run the job. Bark Beetle streams your job so you don't have to save every change.
 
 # Advanced Workflow 
+
+As of October 2019 this workflow has partially been archived (but still available).
 
 Either modify the Example file or use the clustered components from the plug-in toolbar to create your own definition.
 Hover your pointer over each component to discover what they do. 
