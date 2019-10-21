@@ -18,7 +18,6 @@ To use the streaming function of the file, you need to first specify your stream
 * You'll get a prompt asking to define a folder for streaming. Choose a folder as a destination for all files to be automatically streamed to.
 
 Now every time you make a job, this file will automatically update, ready for you to run the job.
->> If it's not updating, you might need to set this up manually from the panel.
 
 # General Workflow
 
