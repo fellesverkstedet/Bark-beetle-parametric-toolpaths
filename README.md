@@ -84,7 +84,7 @@ If these instructions could be clearer, please feel welcome to make suggestions 
 
 **Pocket**
 * Creates pockets from closed curves. Used to clear all the material inside a curve to a specific depth.
-* Supports curves inside a curve to make islands in a pocket. But only at one level. An island inside an island inside an island is not supported. Use multiple cutting operations to achieve this.
+* Supports endless curves inside curves to make islands for pockets. Currently only supports raster pockets along X or Y.
 
 
 **Surface 3D mill**
